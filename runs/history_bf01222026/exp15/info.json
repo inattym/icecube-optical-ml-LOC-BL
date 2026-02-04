@@ -1,0 +1,32 @@
+{
+  "device": "cpu",
+  "args": {
+    "csv": "data/camsim/meta/train.csv",
+    "val_csv": "data/camsim/meta/val.csv",
+    "base_dir": "",
+    "img_size": 64,
+    "no_header": false,
+    "standardize_params": true,
+    "interp": "auto",
+    "augment": false,
+    "as_gray": false,
+    "start_res": 8,
+    "base_ch": 128,
+    "cond_dim": 128,
+    "mlp_hidden": 128,
+    "ch_mults": "",
+    "up_mode": "nearest",
+    "batch_size": 64,
+    "epochs": 50,
+    "lr": 0.0002,
+    "weight_decay": 0.0,
+    "grad_clip": 0.0,
+    "amp": false,
+    "out_dir": "runs/exp15",
+    "ckpt_every": 0,
+    "keep_all_ckpts": false,
+    "resume": "",
+    "num_workers": 4,
+    "pin_memory": false
+  }
+}

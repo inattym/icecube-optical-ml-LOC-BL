@@ -1,0 +1,8 @@
+[info] device: cuda
+Epoch 001 | Train loss 0.22602 (mse 0.21440, ssim 0.2046) | Val MSE 0.21432 | Val SSIM 0.2106
+Epoch 002 | Train loss 0.22599 (mse 0.21437, ssim 0.2046) | Val MSE 0.21432 | Val SSIM 0.2106
+Epoch 003 | Train loss 0.22599 (mse 0.21436, ssim 0.2046) | Val MSE 0.21432 | Val SSIM 0.2106
+Epoch 004 | Train loss 0.22594 (mse 0.21431, ssim 0.2046) | Val MSE 0.21432 | Val SSIM 0.2106
+Epoch 005 | Train loss 0.22605 (mse 0.21443, ssim 0.2045) | Val MSE nan | Val SSIM nan
+Epoch 006 | Train loss nan (mse nan, ssim nan) | Val MSE nan | Val SSIM nan
+Epoch 007 | Train loss nan (mse nan, ssim nan) | Val MSE nan | Val SSIM nan

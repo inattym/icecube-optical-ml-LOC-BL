@@ -1,0 +1,41 @@
+# ---- Python / env junk ----
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# ---- Model weights / binaries ----
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+*.h5
+*.npy
+*.npz
+
+# ---- Images / figures ----
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.tiff
+*.bmp
+*.svg
+*.pdf
+
+# ---- Videos ----
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# ---- Tracking tools ----
+wandb/
+tensorboard/
+
+# ---- OS junk ----
+.DS_Store

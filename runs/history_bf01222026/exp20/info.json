@@ -1,0 +1,33 @@
+{
+  "device": "cuda",
+  "args": {
+    "csv": "data/camsim/meta/train.csv",
+    "val_csv": "data/camsim/meta/val.csv",
+    "base_dir": "",
+    "img_size": 128,
+    "no_header": false,
+    "standardize_params": true,
+    "interp": "auto",
+    "augment": false,
+    "as_gray": true,
+    "start_res": 4,
+    "base_ch": 256,
+    "cond_dim": 256,
+    "mlp_hidden": 256,
+    "ch_mults": "1.0,1.0,0.75,0.5,0.5,0.25",
+    "up_mode": "bilinear",
+    "n_blocks_per_up": 2,
+    "batch_size": 64,
+    "epochs": 200,
+    "lr": 0.0003,
+    "weight_decay": 1e-05,
+    "grad_clip": 1.0,
+    "amp": true,
+    "out_dir": "runs/exp20",
+    "ckpt_every": 10,
+    "keep_all_ckpts": false,
+    "resume": "",
+    "num_workers": 4,
+    "pin_memory": true
+  }
+}
