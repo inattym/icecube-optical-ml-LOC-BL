@@ -33,4 +33,20 @@ These artifacts are preserved **verbatim** on CHPC.
 
 ## Location of full training artifacts (CHPC)
 
-Full artifacts corresponding to this baseline live on CHPC at:
+Full artifacts corresponding to this baseline live on CHPC at: /uufs/chpc.utah.edu/common/home/u1494626/icecube-ml_BACKUP_locTrainSucc_2026-01-29
+
+Which includes:
+- full training logs
+- model weights
+- generated images
+- raw outputs
+
+
+
+## Intended use
+
+- Reference implementation for successful XY-location learning
+- Comparison baseline for future models
+- Archival record of a milestone result
+
+For active development, see the corresponding **dev repository**.
